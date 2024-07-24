@@ -1,0 +1,46 @@
+#todoForm {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#todoList {
+
+    padding: 0px;
+}
+
+.task-item {
+    padding: 6px 4px;
+    margin-bottom: 3px;
+    background-color: rgb(236, 234, 234);
+}
+
+#titleInput {
+    width: calc(100% - 47px);
+    height: 30px;
+}
+
+#searchInput {
+    height: 35px;
+}
+
+#submitBtn {
+    height: 35px;
+    width: 35px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.done {
+    background: #b8efb8;
+}
